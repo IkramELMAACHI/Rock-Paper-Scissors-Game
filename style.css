@@ -1,0 +1,274 @@
+* {}
+
+body {
+    background: rgb(31, 55, 86);
+    background: radial-gradient(circle, rgba(31, 55, 86, 1) 51%, rgba(20, 21, 57, 1) 89%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.containers {
+
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+    margin: 50px auto;
+
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid hsl(217, 16%, 45%);
+    border-radius: 15px;
+}
+
+.score-board {
+    background-color: #fff;
+    padding: 0 40px;
+    border-radius: 10px;
+
+
+}
+
+.score-board h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: hsl(228, 82%, 68%)
+}
+
+.score {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+/* **************************Main******************************** */
+
+.row {
+    flex-wrap: nowrap;
+}
+
+main {
+    margin-top: 100PX;
+}
+
+/* **************************************Choice*********************************** */
+
+
+.cont-icon-rock1,
+.cont-icon-paper1,
+.cont-icon-scissors1 {
+    background-color: white;
+    padding: 29px;
+    height: 200px;
+    width: 215px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bg-rock1,
+.bg-paper1,
+.bg-scissors1 {
+    padding: 31px;
+    background-color: white;
+    width: 60%;
+    height: 90%;
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 8px;
+    /* border-radius: 50%; */
+
+}
+
+
+.cont-icon-rock1 {
+    border: 24px solid hsl(349, 70%, 56%);
+    box-shadow: 0px 10px 0px hsl(349, 71%, 52%);
+    position: absolute;
+    bottom: -46px;
+    left: 17%;
+
+
+}
+
+.cont-icon-paper1 {
+    border: 24px solid hsl(230, 89%, 62%);
+    box-shadow: 0px 10px 0px hsl(230, 89%, 65%);
+    position: absolute;
+    top: -53px;
+    left: -88px;
+}
+
+
+.cont-icon-scissors1 {
+    border: 24px solid hsl(39, 89%, 49%);
+    box-shadow: 0px 10px 0px hsl(40, 84%, 53%);
+    position: absolute;
+    top: -53px;
+    right: -88px;
+}
+
+
+
+
+.icon {
+    position: absolute;
+
+    border-radius: 50%;
+    width: 60px;
+    padding: 31px;
+    margin: 0 auto;
+    background: #fff;
+    /* margin-top: 20px; */
+    /* border-style: outset; */
+}
+
+.cont-img {
+
+    width: 60px;
+
+}
+
+.cont-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ****************************Partie Show*********************** */
+
+
+
+
+.cont-icon-rock,
+.cont-icon-paper,
+.cont-icon-scissors {
+    background-color: white;
+    padding: 31px;
+    height: 280px;
+    width: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cont-icon-rock {
+    border: 30px solid hsl(349, 70%, 56%);
+    box-shadow: 0px 15px 0px hsl(349, 71%, 52%);
+
+}
+
+.cont-icon-paper {
+    border: 30px solid hsl(230, 89%, 62%);
+    box-shadow: 0px 15px 0px hsl(230, 89%, 65%);
+}
+
+.cont-icon-scissors {
+    border: 30px solid hsl(39, 89%, 49%);
+    box-shadow: 0px 15px 0px hsl(40, 84%, 53%);
+}
+
+
+
+
+.bg-rock,
+.bg-paper,
+.bg-scissors {
+    padding: 31px;
+    background-color: white;
+    width: 60%;
+    height: 90%;
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    /* border-radius: 50%; */
+
+}
+
+
+
+.bg-rock,
+.bg-rock1 {
+    background-image: url('images/icon-rock.svg')
+}
+
+.bg-paper,
+.bg-paper1 {
+    background-image: url('images/icon-paper.svg')
+}
+
+.bg-scissors,
+.bg-scissors1 {
+    background-image: url('images/icon-scissors.svg')
+}
+
+.choice {
+    display: block;
+    position: relative;
+    width: 345px;
+
+    /* margin: 150px auto; */
+    /* border: 1px solid red; */
+}
+
+.show {
+    /* border: 1px solid red; */
+    display: none;
+    color: white;
+
+}
+
+.result {
+    display: none;
+}
+
+
+
+
+h3 {
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+
+h1 {
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.compEmpty {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #0a0e3c;
+    margin: 64px 70px;
+
+
+
+}
+
+.btnColor {
+    color: #bb1f1f;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 6px;
+    border-radius: 9px;
+}
+
+
+.attribution {
+    margin-top: 100px; 
+} 
+
+.attribution a {
+text-decoration: none;
+
+}
